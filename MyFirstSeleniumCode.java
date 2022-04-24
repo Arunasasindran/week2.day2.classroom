@@ -54,8 +54,11 @@ public class MyFirstSeleniumCode {
 		
 		//get text of CompanyName
 		String cmpName = driver.findElement(By.id("viewLead_companyName_sp")).getText();
+		
+		//print the output
 		System.out.println(cmpName);
 		
+		//Close the Browser
 		driver.close();
 
 	}
