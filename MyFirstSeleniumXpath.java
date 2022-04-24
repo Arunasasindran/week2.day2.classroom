@@ -54,8 +54,11 @@ public class MyFirstSeleniumXpath {
 		
 		//get text of CompanyName
 		String cmpName = driver.findElement(By.xpath("//span[@id='viewLead_companyName_sp']")).getText();
+		
+		//print the output
 		System.out.println(cmpName);
 		
+		//close the browser
 		driver.close();
 
 	}
